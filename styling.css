@@ -1,0 +1,88 @@
+@font-face {
+    font-family: HeroBold;
+    src: url(./fonts/Hero\ Bold\ 700.otf) format("opentype");
+}
+
+@font-face {
+    font-family: HeroLight;
+    src: url(fonts/Hero\ Light\ 200.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Hero;
+    src: url(fonts/Hero\ Regular\ 400.otf) format("opentype");
+}
+
+*{
+    margin: 0;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+.topInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexItem{
+    flex: 0 0 0;
+}
+
+.darkBackGround{
+    background-color: #1F2937;
+}
+
+.mainHeroText{
+    font-family: HeroBold;
+    font-size: 48px;
+    color: #f9faf8;
+    
+}
+
+.secondaryHeroText{
+    font-family: Hero;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.headerLogoText{
+    font-family: Hero;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.buttonColor{
+    background-color: #3882f6;
+}
+
+.informationHeaderText{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quoteSelectionBackGround{
+    color: #e5e7eb;
+}
+
+.quoteText{
+    font-family: HeroLight;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
