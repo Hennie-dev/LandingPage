@@ -20,12 +20,15 @@
 .navBar{
     display: flex;
     justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .links{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 .topLeft{
@@ -39,12 +42,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
+    gap: 20px;
 }
 
 .flexItem{
-    flex-grow: 0;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: #3882f6;
 }
 
@@ -76,13 +80,14 @@
 }
 
 .informationHeaderText{
+    font-family: HeroBold;
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
 }
 
 .quoteSelectionBackGround{
-    color: #e5e7eb;
+    background-color: lightgrey;
 }
 
 .quoteText{
@@ -90,4 +95,55 @@
     font-style: italic;
     font-size: 36px;
     color: #1f2937;
+}
+
+.morePictures{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+ 
+.infoImage{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 20px;
+    border: #3882f6 4px solid;
+}
+
+.imageSubText{
+    font-family: Hero;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: center;
+}
+
+.informationSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.morePictureItem{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quoteSection{
+    padding: 200px;
+}
+
+.quoteCreditText{
+    font-family: HeroBold;
+    font-size: 18px;
+    color: #1f2937;
+    text-align: right;
+    padding-top: 20px;
 }
