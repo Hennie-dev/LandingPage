@@ -147,3 +147,43 @@
     text-align: right;
     padding-top: 20px;
 }
+
+.signUpSection{
+    padding: 100px;
+    
+}
+
+.signUpHolder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 50px 200px;
+}
+
+.textHolder{
+    color: #f9faf8;
+    font-family: Hero;
+}
+
+.signUpButton{
+    border-color: #f9faf8;
+    box-shadow: none;
+    border-style: solid;
+}
+
+.signUpButton:active{
+    background-color: #1754b6;
+}
+
+.actionText{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
